@@ -6,19 +6,19 @@ from views import pages
 list_of_pages = [
     "Moira Queendom",
     "Who is MOIRA?",
-    "Moira in PH Music Scene",
-    "Conquering US",
+    "Moira in the PH Music Scene",
+    "How to Conquer the US?",
     "Moira's Music",
     "Recommender Engine",
-    "US Market",
+    "US Music Market",
     "Collaborations",
-    "How can MOIRA Conquer US?",
+    "Conclusion",
     "Spotify Playlist"
-    
 ]
 
 st.sidebar.title(':crown: MOIRA Queendom')
-st.sidebar.markdown("Team One-Derers | DSFC11")
+st.sidebar.markdown("Team One-Derers")
+st.sidebar.markdown("Eskwelabs: Data Science Fellowship Cohort 11")
 selection = st.sidebar.radio("Go to: ", list_of_pages)
 
 if selection == "Moira Queendom":
@@ -27,10 +27,10 @@ if selection == "Moira Queendom":
 elif selection == "Who is MOIRA?":
     pages.Artist_Overview()
 
-elif selection == "Moira in PH Music Scene":
+elif selection == "Moira in the PH Music Scene":
     pages.Moira_PH()
 
-elif selection == "Conquering US":
+elif selection == "How to Conquer the US?":
     pages.Conquer_US()
     
 elif selection == "Moira's Music":
@@ -39,13 +39,13 @@ elif selection == "Moira's Music":
 elif selection == "Recommender Engine":
     pages.recom_engine()
 
-elif selection == "US Market":
+elif selection == "US Music Market":
     pages.us_market()
 
 elif selection == "Collaborations":
     pages.collab()
 
-elif selection == "How can MOIRA Conquer US?":
+elif selection == "Conclusion":
     pages.moira_us()
 
 elif selection == "Spotify Playlist":
