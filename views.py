@@ -26,7 +26,7 @@ class pages:
         st.subheader(" ")
         st.image('Slides/3.png')
         st.subheader(" ")
-        st.image('Slides/4.png ')
+        st.image('Slides/4.png')
 
 
     def Moira_PH():
