@@ -132,7 +132,7 @@ class pages:
 
     def sp_playlist():
         st.title("Moira Recommender Playlist")
-        embed_code = '<iframe src="https://open.spotify.com/embed/playlist/65zxFtHsH7juLMTepFiD9x?utm_source=generator" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'
+        embed_code = '<iframe src="https://open.spotify.com/embed/playlist/65zxFtHsH7juLMTepFiD9x?utm_source=generator" width="100%" height="640" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'
         st.write(embed_code, unsafe_allow_html=True)
 
 
